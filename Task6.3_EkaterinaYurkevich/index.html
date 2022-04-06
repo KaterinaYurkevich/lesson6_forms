@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 6_3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="header">Пожалуйста, укажите Ваше имя и фамилию.</p>
+        <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+        <form>
+            <input class="name" type="text" placeholder="Ваше имя" required>
+            <input class="surname" type="text" placeholder="Ваша фамилия" required>
+            <p>Дата рождения</p>
+            <select name="day-of-birthday">
+                <option hidden>День</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="month-of-birthday">
+                <option hidden>Месяц</option>
+                <option value="Январь">Январь</option>
+                <option value="Февраль">Февраль</option>
+                <option value="Март">Март</option>
+            </select>
+            <select name="year-of-birthday">
+                <option hidden>Год</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+            </select>
+            <button>Зарегистрироваться</button>
+        </form>
+        <div class="before_p"></div>
+        <p>или</p>
+        <div class="after_p"></div>
+        <button>Продолжить с Facebook</button>
+    </div>
+</body>
+
+</html>
